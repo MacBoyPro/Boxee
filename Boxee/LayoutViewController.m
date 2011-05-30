@@ -62,6 +62,7 @@
             CGRect boxFrame = CGRectMake(i, j, SQUARE_SIZE, SQUARE_SIZE);
             Box *box = [[Box alloc] initWithFrame:boxFrame];
             [boxes addObject:box];
+            [box release];
             [contentView addSubview:box];
         }
     }
