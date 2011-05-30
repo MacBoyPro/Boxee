@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1197D6C41392ACC900DF5F71 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1197D6C31392ACC900DF5F71 /* Cocoa.framework */; };
+		1197D6CE1392ACC900DF5F71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1197D6CC1392ACC900DF5F71 /* InfoPlist.strings */; };
+		1197D6D11392ACC900DF5F71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1197D6D01392ACC900DF5F71 /* main.m */; };
+		1197D6D41392ACC900DF5F71 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1197D6D21392ACC900DF5F71 /* Credits.rtf */; };
+		1197D6D71392ACC900DF5F71 /* BoxeeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1197D6D61392ACC900DF5F71 /* BoxeeAppDelegate.m */; };
+		1197D6DA1392ACC900DF5F71 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1197D6D81392ACC900DF5F71 /* MainMenu.xib */; };
+		1197D6E11392ACDB00DF5F71 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1197D6E01392ACDB00DF5F71 /* QuartzCore.framework */; };
+		1197D6E91392AD3700DF5F71 /* LayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1197D6E71392AD3700DF5F71 /* LayoutViewController.m */; };
+		1197D6EA1392AD3700DF5F71 /* LayoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1197D6E81392AD3700DF5F71 /* LayoutViewController.xib */; };
+		1197D6ED1392AE3C00DF5F71 /* Box.m in Sources */ = {isa = PBXBuildFile; fileRef = 1197D6EC1392AE3C00DF5F71 /* Box.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1197D6BF1392ACC900DF5F71 /* Boxee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boxee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1197D6C31392ACC900DF5F71 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1197D6C61392ACC900DF5F71 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1197D6C71392ACC900DF5F71 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1197D6C81392ACC900DF5F71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1197D6CB1392ACC900DF5F71 /* Boxee-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Boxee-Info.plist"; sourceTree = "<group>"; };
+		1197D6CD1392ACC900DF5F71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1197D6CF1392ACC900DF5F71 /* Boxee-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Boxee-Prefix.pch"; sourceTree = "<group>"; };
+		1197D6D01392ACC900DF5F71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1197D6D31392ACC900DF5F71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1197D6D51392ACC900DF5F71 /* BoxeeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoxeeAppDelegate.h; sourceTree = "<group>"; };
+		1197D6D61392ACC900DF5F71 /* BoxeeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoxeeAppDelegate.m; sourceTree = "<group>"; };
+		1197D6D91392ACC900DF5F71 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1197D6E01392ACDB00DF5F71 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1197D6E61392AD3700DF5F71 /* LayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutViewController.h; sourceTree = "<group>"; };
+		1197D6E71392AD3700DF5F71 /* LayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutViewController.m; sourceTree = "<group>"; };
+		1197D6E81392AD3700DF5F71 /* LayoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayoutViewController.xib; sourceTree = "<group>"; };
+		1197D6EB1392AE3C00DF5F71 /* Box.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box.h; sourceTree = "<group>"; };
+		1197D6EC1392AE3C00DF5F71 /* Box.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Box.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1197D6BC1392ACC900DF5F71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1197D6E11392ACDB00DF5F71 /* QuartzCore.framework in Frameworks */,
+				1197D6C41392ACC900DF5F71 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1197D6B41392ACC800DF5F71 = {
+			isa = PBXGroup;
+			children = (
+				1197D6C91392ACC900DF5F71 /* Boxee */,
+				1197D6C21392ACC900DF5F71 /* Frameworks */,
+				1197D6C01392ACC900DF5F71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1197D6C01392ACC900DF5F71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1197D6BF1392ACC900DF5F71 /* Boxee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1197D6C21392ACC900DF5F71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1197D6E01392ACDB00DF5F71 /* QuartzCore.framework */,
+				1197D6C31392ACC900DF5F71 /* Cocoa.framework */,
+				1197D6C51392ACC900DF5F71 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1197D6C51392ACC900DF5F71 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1197D6C61392ACC900DF5F71 /* AppKit.framework */,
+				1197D6C71392ACC900DF5F71 /* CoreData.framework */,
+				1197D6C81392ACC900DF5F71 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1197D6C91392ACC900DF5F71 /* Boxee */ = {
+			isa = PBXGroup;
+			children = (
+				1197D6E51392AD0700DF5F71 /* Application */,
+				1197D6E41392ACF700DF5F71 /* Models */,
+				1197D6E31392ACEE00DF5F71 /* Controllers */,
+				1197D6E21392ACE400DF5F71 /* Views */,
+				1197D6CA1392ACC900DF5F71 /* Supporting Files */,
+			);
+			path = Boxee;
+			sourceTree = "<group>";
+		};
+		1197D6CA1392ACC900DF5F71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1197D6CB1392ACC900DF5F71 /* Boxee-Info.plist */,
+				1197D6CC1392ACC900DF5F71 /* InfoPlist.strings */,
+				1197D6CF1392ACC900DF5F71 /* Boxee-Prefix.pch */,
+				1197D6D01392ACC900DF5F71 /* main.m */,
+				1197D6D21392ACC900DF5F71 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1197D6E21392ACE400DF5F71 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1197D6E81392AD3700DF5F71 /* LayoutViewController.xib */,
+				1197D6D81392ACC900DF5F71 /* MainMenu.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1197D6E31392ACEE00DF5F71 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1197D6E61392AD3700DF5F71 /* LayoutViewController.h */,
+				1197D6E71392AD3700DF5F71 /* LayoutViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1197D6E41392ACF700DF5F71 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1197D6EB1392AE3C00DF5F71 /* Box.h */,
+				1197D6EC1392AE3C00DF5F71 /* Box.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		1197D6E51392AD0700DF5F71 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1197D6D51392ACC900DF5F71 /* BoxeeAppDelegate.h */,
+				1197D6D61392ACC900DF5F71 /* BoxeeAppDelegate.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1197D6BE1392ACC900DF5F71 /* Boxee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1197D6DD1392ACC900DF5F71 /* Build configuration list for PBXNativeTarget "Boxee" */;
+			buildPhases = (
+				1197D6BB1392ACC900DF5F71 /* Sources */,
+				1197D6BC1392ACC900DF5F71 /* Frameworks */,
+				1197D6BD1392ACC900DF5F71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Boxee;
+			productName = Boxee;
+			productReference = 1197D6BF1392ACC900DF5F71 /* Boxee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1197D6B61392ACC800DF5F71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Blazing Cloud, Inc.";
+			};
+			buildConfigurationList = 1197D6B91392ACC800DF5F71 /* Build configuration list for PBXProject "Boxee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1197D6B41392ACC800DF5F71;
+			productRefGroup = 1197D6C01392ACC900DF5F71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1197D6BE1392ACC900DF5F71 /* Boxee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1197D6BD1392ACC900DF5F71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1197D6CE1392ACC900DF5F71 /* InfoPlist.strings in Resources */,
+				1197D6D41392ACC900DF5F71 /* Credits.rtf in Resources */,
+				1197D6DA1392ACC900DF5F71 /* MainMenu.xib in Resources */,
+				1197D6EA1392AD3700DF5F71 /* LayoutViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1197D6BB1392ACC900DF5F71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1197D6D11392ACC900DF5F71 /* main.m in Sources */,
+				1197D6D71392ACC900DF5F71 /* BoxeeAppDelegate.m in Sources */,
+				1197D6E91392AD3700DF5F71 /* LayoutViewController.m in Sources */,
+				1197D6ED1392AE3C00DF5F71 /* Box.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1197D6CC1392ACC900DF5F71 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1197D6CD1392ACC900DF5F71 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1197D6D21392ACC900DF5F71 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1197D6D31392ACC900DF5F71 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1197D6D81392ACC900DF5F71 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1197D6D91392ACC900DF5F71 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1197D6DB1392ACC900DF5F71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1197D6DC1392ACC900DF5F71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1197D6DE1392ACC900DF5F71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Boxee/Boxee-Prefix.pch";
+				INFOPLIST_FILE = "Boxee/Boxee-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1197D6DF1392ACC900DF5F71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Boxee/Boxee-Prefix.pch";
+				INFOPLIST_FILE = "Boxee/Boxee-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1197D6B91392ACC800DF5F71 /* Build configuration list for PBXProject "Boxee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1197D6DB1392ACC900DF5F71 /* Debug */,
+				1197D6DC1392ACC900DF5F71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1197D6DD1392ACC900DF5F71 /* Build configuration list for PBXNativeTarget "Boxee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1197D6DE1392ACC900DF5F71 /* Debug */,
+				1197D6DF1392ACC900DF5F71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1197D6B61392ACC800DF5F71 /* Project object */;
+}
