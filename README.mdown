@@ -1,1 +1,4 @@
+A simple cocoa application that calculates and draws boxes in a frame based on how big the frame is. It will also add a row of boxes at a given interval.
+
+
 ![](http://macboypro.com/boxee/boxee.png)
