@@ -41,12 +41,12 @@
 
 - (void)drawRect:(NSRect)dirtyRect {   
     
-    NSColor *otherColor = [NSColor colorWithCalibratedRed:red
+    NSColor *fillColor = [NSColor colorWithCalibratedRed:red
                                                    green:green
-                                                     blue:blue
+                                                    blue:blue
                                                    alpha:alpha];
     
-    [otherColor setFill];
+    [fillColor setFill];
     NSRectFill(dirtyRect);
 }
 

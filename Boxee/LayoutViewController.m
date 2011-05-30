@@ -29,12 +29,16 @@
     if (!initialized) {
         initialized = YES;
         
+        //initialize the content view
         NSRect scrollViewFrame = [[self view] frame];
         NSRect contentViewFrame = NSMakeRect(0, 0, scrollViewFrame.size.width, scrollViewFrame.size.height);
         [contentView setFrame:contentViewFrame];
         
         boxes = [[NSMutableArray alloc] initWithCapacity:1];
+        
+        //populate the screen with boxes
         [self addBoxesToContentViewWithFrame:contentViewFrame];
+        
         [NSTimer scheduledTimerWithTimeInterval:UPDATE_VIEW
                                          target:self
                                        selector:@selector(addNewRowToContentView)
